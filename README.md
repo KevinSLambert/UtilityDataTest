@@ -5,7 +5,7 @@ A simple app that stores analytics in Core Data (not really recommended)
 
 We'll use a Utility App template with Core Data (or clone this sample repo)
 
-###Step 1: 
+###Steps: 
 - Create an entity in core data called Analytics
   - Give it the attributes:
     - launchCount (Integer)
