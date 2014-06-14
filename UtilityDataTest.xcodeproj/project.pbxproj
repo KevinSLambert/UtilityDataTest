@@ -25,6 +25,8 @@
 		71DE07E2194C14C200378337 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DE07BD194C14C200378337 /* CoreData.framework */; };
 		71DE07EA194C14C200378337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71DE07E8194C14C200378337 /* InfoPlist.strings */; };
 		71DE07EC194C14C200378337 /* UtilityDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE07EB194C14C200378337 /* UtilityDataTestTests.m */; };
+		71DE07F7194C173400378337 /* Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE07F6194C173400378337 /* Analytics.m */; };
+		71DE07FA194C194C00378337 /* AnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE07F9194C194C00378337 /* AnalyticsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		71DE07E7194C14C200378337 /* UtilityDataTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UtilityDataTestTests-Info.plist"; sourceTree = "<group>"; };
 		71DE07E9194C14C200378337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71DE07EB194C14C200378337 /* UtilityDataTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityDataTestTests.m; sourceTree = "<group>"; };
+		71DE07F5194C173400378337 /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		71DE07F6194C173400378337 /* Analytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Analytics.m; sourceTree = "<group>"; };
+		71DE07F8194C194C00378337 /* AnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsController.h; sourceTree = "<group>"; };
+		71DE07F9194C194C00378337 /* AnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,10 @@
 				71DE07D5194C14C200378337 /* UDFlipsideViewController.m */,
 				71DE07D7194C14C200378337 /* Images.xcassets */,
 				71DE07CE194C14C200378337 /* UtilityDataTest.xcdatamodeld */,
+				71DE07F5194C173400378337 /* Analytics.h */,
+				71DE07F6194C173400378337 /* Analytics.m */,
+				71DE07F8194C194C00378337 /* AnalyticsController.h */,
+				71DE07F9194C194C00378337 /* AnalyticsController.m */,
 				71DE07C0194C14C200378337 /* Supporting Files */,
 			);
 			path = UtilityDataTest;
@@ -264,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DE07FA194C194C00378337 /* AnalyticsController.m in Sources */,
 				71DE07C6194C14C200378337 /* main.m in Sources */,
 				71DE07D0194C14C200378337 /* UtilityDataTest.xcdatamodeld in Sources */,
+				71DE07F7194C173400378337 /* Analytics.m in Sources */,
 				71DE07D3194C14C200378337 /* UDMainViewController.m in Sources */,
 				71DE07CA194C14C200378337 /* UDAppDelegate.m in Sources */,
 				71DE07D6194C14C200378337 /* UDFlipsideViewController.m in Sources */,

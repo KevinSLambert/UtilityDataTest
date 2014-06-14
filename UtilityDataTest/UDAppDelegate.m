@@ -10,6 +10,8 @@
 
 #import "UDMainViewController.h"
 
+#import "AnalyticsController.h"
+
 @implementation UDAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -18,9 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    Analytics *analytics = [AnalyticsController defaultAnalyticsContext:self.managedObjectContext];
+    [analytics incrementLaunchCount];
+    
     UDMainViewController *controller = (UDMainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    [self saveContext];
+    
     return YES;
 }
 							
