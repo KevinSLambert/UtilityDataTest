@@ -11,7 +11,7 @@ We'll use a Utility App template with Core Data (or clone this sample repo)
     - launchCount (Integer)
 - You need to fetch a singular instance of Analytics
   - You need to create it if it doesn’t exist
-  - (like RootMember)
+  - (like RootMember - in the Core Data Bank project)
 - You need to increment the launch count everytime the app launches
 
 Advice: You can do this all in the didFinishLaunching method. You could also create a controller that grabs the defaultAnalytics object, and add an increment method to the launch item itself. Up to you.
