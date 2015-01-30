@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3089FF521A7B50DD007CC43B /* Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3089FF511A7B50DD007CC43B /* Analytics.m */; };
+		3089FF551A7B5250007CC43B /* AnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3089FF541A7B5250007CC43B /* AnalyticsController.m */; };
 		71DE07B8194C14C200378337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DE07B7194C14C200378337 /* Foundation.framework */; };
 		71DE07BA194C14C200378337 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DE07B9194C14C200378337 /* CoreGraphics.framework */; };
 		71DE07BC194C14C200378337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DE07BB194C14C200378337 /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3089FF501A7B50DD007CC43B /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		3089FF511A7B50DD007CC43B /* Analytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Analytics.m; sourceTree = "<group>"; };
+		3089FF531A7B5250007CC43B /* AnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsController.h; sourceTree = "<group>"; };
+		3089FF541A7B5250007CC43B /* AnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsController.m; sourceTree = "<group>"; };
 		71DE07B4194C14C200378337 /* UtilityDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UtilityDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DE07B7194C14C200378337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71DE07B9194C14C200378337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +138,10 @@
 				71DE07D5194C14C200378337 /* UDFlipsideViewController.m */,
 				71DE07D7194C14C200378337 /* Images.xcassets */,
 				71DE07CE194C14C200378337 /* UtilityDataTest.xcdatamodeld */,
+				3089FF501A7B50DD007CC43B /* Analytics.h */,
+				3089FF511A7B50DD007CC43B /* Analytics.m */,
+				3089FF531A7B5250007CC43B /* AnalyticsController.h */,
+				3089FF541A7B5250007CC43B /* AnalyticsController.m */,
 				71DE07C0194C14C200378337 /* Supporting Files */,
 			);
 			path = UtilityDataTest;
@@ -264,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3089FF551A7B5250007CC43B /* AnalyticsController.m in Sources */,
 				71DE07C6194C14C200378337 /* main.m in Sources */,
 				71DE07D0194C14C200378337 /* UtilityDataTest.xcdatamodeld in Sources */,
+				3089FF521A7B50DD007CC43B /* Analytics.m in Sources */,
 				71DE07D3194C14C200378337 /* UDMainViewController.m in Sources */,
 				71DE07CA194C14C200378337 /* UDAppDelegate.m in Sources */,
 				71DE07D6194C14C200378337 /* UDFlipsideViewController.m in Sources */,
@@ -473,6 +485,7 @@
 				71DE07F1194C14C200378337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DE07F2194C14C200378337 /* Build configuration list for PBXNativeTarget "UtilityDataTestTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +494,7 @@
 				71DE07F4194C14C200378337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
